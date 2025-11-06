@@ -1,6 +1,6 @@
 --[[
 	Eclipse UI Library
-	Version: 3.1 (Premium Edition)
+	Version: 1.0.0 (Eclipse Dev Team On Top)
 	Credits: @_vitinff754 on Discord
 
 	Features:
@@ -37,21 +37,6 @@ New MakeWindow Options:
 • Enhanced UI positioning and animations
 • Subtitle system improvements
 • Robust configuration handling
-
-	Usage Example:
-	local EclipseLib = loadstring(game:HttpGet('your-script-url'))()
-
-	local Window = EclipseLib:MakeWindow({
-		Name = "Eclipse Hub",
-		Subtitle = "v2.2 Stable",
-		HidePremium = false,
-		SaveConfig = true,
-		ConfigFolder = "EclipseConfig",
-		Icon = "rbxassetid://4483345998",
-		ShowIcon = true,
-		IntroEnabled = true,
-		IntroText = "Eclipse Hub Loading..."
-	})
 ]]
 
 
